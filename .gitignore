@@ -1,0 +1,6 @@
+# uploads (dev only)
+uploads/
+data/submissions.jsonl
+
+# local bundle archive (not source)
+RFV_Course.zip
