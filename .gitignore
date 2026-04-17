@@ -25,19 +25,42 @@ yarn-error.log*
 # Local env files
 .env*.local
 .env
+.env.production
+.env.production.local
+.env.development.local
+.env.test.local
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-*
 
 # OS
 Thumbs.db
+.DS_Store
+*.log
+
+# SSH Keys & Credentials
+*.pem
+*.key
+*.pub
+~/.ssh/
 
 # uploads (dev only)
 uploads/
 data/submissions.jsonl
+logs/
 
 # local bundle archive (not source)
 RFV_Course.zip
+
+# PM2 logs
+ecosystem-error.log
+ecosystem-out.log
+
+# temporary files
+*.tmp
+*.temp
+.turbo/
